@@ -3,7 +3,7 @@
 - Adjust `setup.cfg`. Things to do include but are not limited to:
   - Set author and maintainer info
   - Find and replace `examplepackage` by another package name
-  - Exchange the `LICENSE.txt` file and license metadata if you wish
+  - Exchange the `LICENSE.txt` file and license metadata as appropriate (see https://choosealicense.com)
   - Adjust, remove, and add other settings as necessary
 
 # Python version
