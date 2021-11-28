@@ -23,7 +23,6 @@ More advanced settings may be useful to add depending on your needs: https://git
 
 # TODO
 
-- Testing using tox
 - Docs using Sphinx
 - Formatting using Black
 - Automated version bumps?
@@ -31,7 +30,17 @@ More advanced settings may be useful to add depending on your needs: https://git
 
 # Credits and references
 
-- https://packaging.python.org/tutorials/packaging-projects/
-- https://setuptools.pypa.io/en/latest/userguide/quickstart.html
-- https://blog.ionelmc.ro/2014/05/25/python-packaging/#the-structure
-- https://github.com/pallets (many details heavily inspired by Click and Jinja2 repositories
+## Tools
+
+- Setuptools <https://setuptools.pypa.io>
+- pip-tools <https://github.com/jazzband/pip-tools>
+- tox <https://tox.wiki>
+- pytest <https://docs.pytest.org>
+- Click <https://click.palletsprojects.com>
+
+# Guides and inspiration
+- <https://packaging.python.org/tutorials/packaging-projects/>
+- <https://setuptools.pypa.io/en/latest/userguide/quickstart.html>
+- <https://blog.ionelmc.ro/2014/05/25/python-packaging/#the-structure>
+- <https://tox.wiki/en/latest/example/package.html>
+- <https://github.com/pallets> (many details heavily inspired by Click and Jinja2 repositories
