@@ -23,7 +23,6 @@ More advanced settings may be useful to add depending on your needs: https://git
 
 # TODO
 
-- `.editorconfig`
 - Docs using Sphinx
 - Formatting using Black
 - Automated version bumps?
