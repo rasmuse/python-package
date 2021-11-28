@@ -27,7 +27,7 @@ More advanced settings may be useful to add depending on your needs: https://git
 - Docs using Sphinx
 - Formatting using Black
 - Automated version bumps?
-- Automated releases
+- Automated releases / CI?
 
 # Credits and references
 

@@ -3,6 +3,6 @@
 Unreleased
 
 - Basic metadata
-- Testing using `pytest`
+- Testing using `pytest` and `tox`
 - CLI using `click`
-- 
+- Manual build & release

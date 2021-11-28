@@ -37,3 +37,17 @@ To run the whole tox testing party, do
 ```
 tox
 ```
+
+# Build
+
+```
+python -m build
+```
+
+# Release on PyPI
+
+```
+python -m twine upload --repository pypi dist/*
+```
+
+See also <https://packaging.python.org/tutorials/packaging-projects/>.
