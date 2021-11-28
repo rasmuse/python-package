@@ -23,7 +23,6 @@ More advanced settings may be useful to add depending on your needs: https://git
 
 # TODO
 
-- MANIFEST.in
 - Testing using tox
 - Docs using Sphinx
 - Formatting using Black
@@ -35,3 +34,4 @@ More advanced settings may be useful to add depending on your needs: https://git
 - https://packaging.python.org/tutorials/packaging-projects/
 - https://setuptools.pypa.io/en/latest/userguide/quickstart.html
 - https://blog.ionelmc.ro/2014/05/25/python-packaging/#the-structure
+- https://github.com/pallets (many details heavily inspired by Click and Jinja2 repositories
