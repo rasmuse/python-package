@@ -7,3 +7,4 @@ dist
 
 # vs code
 *.code-workspace
+.vscode
