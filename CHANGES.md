@@ -1,18 +1,13 @@
-# Version 0.1.1dev
-
-Unreleased
+# 0.1.1dev (unreleased)
 
 - Add note on how to specify multiple authors
+- Use more compact format in this file
 
-# Version 0.1.1
-
-Released 2021-11-28
+# 0.1.1 (2021-11-28)
 
 - Use `.editorconfig`
 
-# Version 0.1.0
-
-Released 2021-11-28
+# 0.1.0 (2021-11-28)
 
 - Basic metadata
 - Testing using `pytest` and `tox`
