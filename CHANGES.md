@@ -2,6 +2,8 @@
 
 Unreleased
 
+- Add note on how to specify multiple authors
+
 # Version 0.1.1
 
 Released 2021-11-28
