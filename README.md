@@ -1,19 +1,22 @@
-# How to
+# Getting started
 
-- Adjust `setup.cfg`. Things to do include but are not limited to:
+- Adjust `setup.cfg` and `LICENSE`. Things to do include but are not limited to:
   - Set author and maintainer info
   - Find and replace `examplepackage` by another package name
-  - Exchange the `LICENSE.txt` file and license metadata as appropriate (see https://choosealicense.com)
+  - Exchange the `LICENSE` file and license metadata as appropriate (see https://choosealicense.com)
   - Adjust, remove, and add other settings as necessary
+- Read `CONTRIBUTING.md` for more details on how to install in dev mode, add or remove dependencies, etc.
 
-# Python version
+# Explanations of some choices
+
+## Python version
 
 Well, choose whichever you like. In my world, Python 3.6 is the minimum worth considering for new projects. For now I'm putting Python 3.7 (released June 2018) as a default because
 - `dataclasses` (PEP 557)
 - Delayed evaluation of type annotations (PEP 563)
 - `importlib.resources`
 
-# `.gitattributes`
+## `.gitattributes`
 
 tl;dr: `*	text=auto` because Windows
 
