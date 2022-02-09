@@ -1,7 +1,8 @@
 -r tests.in
-pip-tools
+pip-tools>=6.5.1
 tox
 build
 twine
 black
 isort
+pre-commit

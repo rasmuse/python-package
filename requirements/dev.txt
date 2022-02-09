@@ -18,6 +18,8 @@ build==0.7.0
     # via -r .\requirements\dev.in
 certifi==2021.10.8
     # via requests
+cfgv==3.3.1
+    # via pre-commit
 charset-normalizer==2.0.8
     # via requests
 click==8.0.3
@@ -40,6 +42,8 @@ filelock==3.4.0
     # via
     #   tox
     #   virtualenv
+identify==2.4.9
+    # via pre-commit
 idna==3.3
     # via requests
 importlib-metadata==4.8.2
@@ -50,6 +54,7 @@ importlib-metadata==4.8.2
     #   keyring
     #   pep517
     #   pluggy
+    #   pre-commit
     #   pytest
     #   tox
     #   twine
@@ -62,6 +67,8 @@ keyring==23.3.0
     # via twine
 mypy-extensions==0.4.3
     # via black
+nodeenv==1.6.0
+    # via pre-commit
 packaging==21.3
     # via
     #   bleach
@@ -74,7 +81,7 @@ pep517==0.12.0
     # via
     #   build
     #   pip-tools
-pip-tools==6.4.0
+pip-tools==6.5.1
     # via -r .\requirements\dev.in
 pkginfo==1.8.1
     # via twine
@@ -86,6 +93,8 @@ pluggy==1.0.0
     # via
     #   pytest
     #   tox
+pre-commit==2.17.0
+    # via -r .\requirements\dev.in
 py==1.11.0
     # via
     #   pytest
@@ -98,6 +107,8 @@ pytest==6.2.5
     # via -r .\requirements\tests.in
 pywin32-ctypes==0.2.0
     # via keyring
+pyyaml==6.0
+    # via pre-commit
 readme-renderer==30.0
     # via twine
 requests==2.26.0
@@ -115,6 +126,7 @@ six==1.16.0
     #   virtualenv
 toml==0.10.2
     # via
+    #   pre-commit
     #   pytest
     #   tox
 tomli==1.2.2
@@ -137,7 +149,9 @@ typing-extensions==4.0.1
 urllib3==1.26.7
     # via requests
 virtualenv==20.10.0
-    # via tox
+    # via
+    #   pre-commit
+    #   tox
 webencodings==0.5.1
     # via bleach
 wheel==0.37.0
