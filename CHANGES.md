@@ -6,7 +6,7 @@
 - Add `black` as dev dependency.
 - Add `isort` as dev dependency.
 - Add `pre-config` as dev dependency.
-- Use `pre-config` to run `isort`.
+- Use `pre-config` to run `isort` and `black`.
 
 # 0.1.1 (2021-11-28)
 
