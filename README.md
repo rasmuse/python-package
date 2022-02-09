@@ -30,9 +30,12 @@ More advanced settings may be useful to add depending on your needs: https://git
 - Formatting using Black
 - Hynek Schlawack https://www.youtube.com/watch?v=9G2s1TN9QQY
   - pyflakes
-  - isort
   - check-manifest?
   - make sure tox and/or pre-commit-config automate all these things; write docs on how to set it up
+    - pyflakes
+    - isort
+    - check-manifest?
+    - ...
   - probably check `attrs` repo
 - For release, make a detailed check list and/or automate
 - Automated version bumps?
